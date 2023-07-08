@@ -2,12 +2,40 @@
 <html>
 <head>
 <style>
-
+h1{
+color:white; font-family:verdana; font-size:35px;}
+table, th, td{
+border: 1px solid black; border-collapse: collapse;}
+ th, td {
+  border-color: yellow;
+  padding: 15px;
+}
+tr {
+  border-bottom: 1px solid #ddd;
+}
+tr:hover {
+background-color: #ffff99;}
 </style>
 <title> FATCRABBERS </title>
 </head>
-<body>
-<h1>
+<body bgcolor="black">
+<h1 style="text-align:center"> Unveiling the Mystery: The Tale of MH370 </h1>
+<table style="width:100%">
+ <caption> Our Journey to Solve the Mystery
+ <tr>
+  <th> Flight to Nowhere </th>
+  <th colspan="2"> Hot on the trail </th>
+ <tr>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+ </tr>
+ <tr>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+ </tr>
+</table>  
 
 </body>
 </html>
