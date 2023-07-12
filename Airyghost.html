@@ -5,7 +5,13 @@
 h1{
 color:yellow; 
 font-size:35px;
-text-align: center;}
+text-align: center;
+ border-style: groove;
+ border-width: 7px;
+ border-color: yellow;
+ padding: 5px;
+ border-radius: 8px;
+ background-color: #b3b3b3}
 table, th, td{
 border: 1px solid yellow; 
 border-collapse: collapse;}
@@ -29,6 +35,31 @@ img {
 
 img:hover {
   opacity: 1.0;
+}
+ h3{
+ border: 5px solid yellow;
+ background-color:#ffff99;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  align: center;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+  background-color: white;
 }
 </style>
 <title> FATCRABBERS </title>
@@ -56,13 +87,24 @@ img:hover {
    He combined different data sets that were previously kept in separate domains, to align to this new location in the Southern Indian Ocean.
  </td>
   <td> 
-   The vanishing has led to a huge number of theories as to what happened. 
-   One of the theories is that it was a 'pilot hijacking', where the pilot took control, and deactivated radar technology before turning around above the Gulf of Thailand and heading west.
    There have been two extensive searches of the Indian Ocean for MH370, which have yielded inconclusive results.
    The searches have cost hundreds of millions of dollars, and whilst there is demand from family members to find their loved ones, the costs associated are enormous. 
    We are still not completely solved the the dissapearance of flight MH370, one of the world's biggest aviation mysteries.
   </td>
  </tr>
-</table>  
+</table>
+ <h3 style="text-align: center"> Theories explaining the dissapearence of flight MH370 </h3>
+<div class="gallery">
+  <a target="_blank" href="https://www.britannica.com/event/Malaysia-Airlines-flight-370-disappearance">
+    <img src="https://blueskynetwork.com/wp-content/uploads/2018/04/MH370-Post.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc"> Flight MH370, what has happened? </div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="https://www.salon.com/2023/03/10/mh370-malaysia-plane-disappeared-netflix/">
+    <img src="https://cdn.images.express.co.uk/img/dynamic/25/590x/Plane-hijacking-pilot-secret-code-841410.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc"> One theory is pilot hijacking. Click on the image to find out more! </div>
+</div> 
 </body>
 </html>
